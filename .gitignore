@@ -20,3 +20,4 @@ yarn-error.log*
 *.sln
 *.sw*
 firebase/index.js
+src/components/AppNavigation.vue
