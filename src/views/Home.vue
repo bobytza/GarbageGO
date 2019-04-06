@@ -2,21 +2,21 @@
     <span>
         <home-hero></home-hero>
         <home-details></home-details>
-        <home-plans></home-plans>
+        <GoogleMaps/>
     </span>
 </template>
 
 <script>
 import HomeHero from '@/components/HomeHero';
 import HomeDetails from '@/components/HomeDetails';
-import HomePlans from '@/components/HomePlans';
+import GoogleMaps from '@/components/GoogleMaps';
 
 export default {
     name: 'home',
     components: {
         HomeHero,
         HomeDetails,
-        HomePlans
+        GoogleMaps
     }
 };
 </script>

@@ -5,9 +5,16 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import '@/firebase/';
+import * as VueGoogleMaps from 'vue2-google-maps';
+
+Vue.use(VueGoogleMaps, {
+    load: {
+      key: "AIzaSyB_W1Matn_V7iG8u-VV5eRGV4gNTSGQQmA",
+      libraries: "places" // necessary for places input
+    }
+});
 
 Vue.config.productionTip = false;
-
 const app = new Vue({
     router,
     store,
