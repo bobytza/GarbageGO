@@ -1,11 +1,11 @@
 import firebase from 'firebase';
 
 const config = {
-    apiKey: 'AIzaSyBdJRsnUapWUeFWSePHjrxdkFKXBDxzA-0',
-    authDomain: 'meal-prep-9b30a.firebaseapp.com',
-    databaseURL: 'https://meal-prep-9b30a.firebaseio.com',
-    projectId: 'meal-prep-9b30a',
-    storageBucket: '',
-    messagingSenderId: '335187018575'
+    apiKey: "AIzaSyB89Pqatx6J7XxpClfrQwP0G_rPjsEx0Ro",
+    authDomain: "garbagego-abb39.firebaseapp.com",
+    databaseURL: "https://garbagego-abb39.firebaseio.com",
+    projectId: "garbagego-abb39",
+    storageBucket: "garbagego-abb39.appspot.com",
+    messagingSenderId: "589018712731"
 };
 firebase.initializeApp(config);
