@@ -8,6 +8,10 @@
             <v-flex mt-4>
                 <v-btn color="primary" to="/menu">Go To Menu</v-btn>
             </v-flex>
+
+            <v-flex mt-4>
+                <v-btn color="primary" >TEST ADD POINTS</v-btn>
+            </v-flex>
         </v-layout>
     </v-container>
 </template>
@@ -22,6 +26,7 @@ export default {
     },
     mounted() {
         this.getRecipes();
+        this.$store.dispatch('addMapPoints');
     },
     methods: {
         getRecipes() {

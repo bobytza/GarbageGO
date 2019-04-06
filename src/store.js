@@ -104,6 +104,13 @@ export default new Vuex.Store({
                 .once('value', snapshot => {
                     commit('setUserRecipes', snapshot.val());
                 });
+        },
+        addMapPoints({ state }) {
+            firebase
+                .database()
+                .ref('points')
+                .child(state.user.user.uid)
+                .push({x: 500, y:300});
         }
     },
     getters: {
